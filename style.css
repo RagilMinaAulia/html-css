@@ -8,16 +8,22 @@
 }
 
 .warna {
-  background-image: linear-gradient(to right, rgb(129, 103, 165), rgb(80, 78, 74));
+  background-image: linear-gradient(
+    to right,
+    rgb(129, 103, 165),
+    rgb(80, 78, 74)
+  );
   color: rgb(215, 215, 215);
 }
 
 img {
-  width: 200px;
+  width: 100px;
 }
 
 .card {
   width: 30%;
+  padding: 5%;
+  box-sizing: border-box;
 }
 
 .horizontal {
