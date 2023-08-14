@@ -11,13 +11,17 @@ h2:hover {
   background-color: rgb(129, 103, 165);
 }
 
+.card:target {
+  background-color: rgb(223, 233, 233);
+}
+
 .display {
   display: inline-block;
   padding: 3%;
 }
 
 p::first-letter {
-  color : rgb(129, 103, 165);
+  color: rgb(129, 103, 165);
   font-size: xx-large;
 }
 
