@@ -12,7 +12,7 @@ h2:hover {
 }
 
 .card:target {
-  background-color: rgb(223, 233, 233);
+  background-color: rgb(182, 188, 188);
 }
 
 .display {
@@ -57,4 +57,24 @@ img {
 
 h1 {
   font-size: 3vmax;
+}
+
+@media only screen and (max-width: 500px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .tempat {
+    width: 80%;
+  }
+
+  .lebar {
+    width: 100%;
+  }
+
+  .respon {
+    display: flex;
+    flex-direction: column;
+  }
 }
