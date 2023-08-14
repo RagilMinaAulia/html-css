@@ -20,6 +20,26 @@ h2:hover {
   padding: 3%;
 }
 
+.display:hover {
+  animation-name: animasi;
+  animation-duration: 5s;
+}
+
+@keyframes animasi {
+  0% {
+    background-color: rgb(129, 103, 165);
+  }
+  25% {
+    background-color: rgb(173, 161, 190);
+  }
+  50% {
+    background-color: rgb(149, 149, 149);
+  }
+  100% {
+    background-color: rgb(215, 215, 215);
+  }
+}
+
 p::first-letter {
   color: rgb(129, 103, 165);
   font-size: xx-large;
